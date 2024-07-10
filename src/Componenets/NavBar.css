@@ -1,0 +1,158 @@
+.navbar{
+    /* background-color: #000; */
+    width:100vw;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #0c0202; */
+}
+
+.navbarbrand {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+
+    @media screen and (max-width: 992px){
+             font-size: 24px;
+    };
+    @media screen and (max-width: 576px){
+        font-size: 20px;
+ }; 
+
+}
+/* .links{
+    border-left: #103755;
+    color:#E80071;
+}
+Nav.Link{
+    color: #E80071;
+} */
+.navbarbrand a {
+    text-decoration: none;
+    color: unset;
+    /* background: linear-gradient(margin-right #40e0de,#ff8c00,#ff0080);
+    color: transparent; */
+
+}
+.text-regal-blue {
+    color: #103755;
+}
+.text-regal-pink {
+    color: #E80071;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.navbarsearch input {
+    width: 80%;
+    border: 2px solid rgba(15, 15, 15, 0.05);
+    color: #0a0d13;
+    height: 34px;
+    padding: 4px 16px;
+    border-radius: 3px 0 0 3px;
+}
+input, textarea, select {
+    outline: 0;
+    border: none;
+    resize: none;
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+.navbarsearch .navbar-search-btn {
+    width: 40px;
+    height: 34px;
+    background-color: #E80071;
+    color: #0c0202;
+    transition: all 300ms linear;
+}
+button {
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+.navbarbtns .add-to-cart-btn {
+    margin-right: 28px;
+    color: #63766b;
+}
+.navbarbtns a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.navbarbtns .add-to-cart-btn .btn-ico {
+    margin-right: 10px;
+}
+
+
+.fa-solid, .fas {
+    font-weight:600;
+}
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+}
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.navbarbtns .add-to-cart-btn .btn-txt {
+    position: relative;
+    text-decoration: none;
+}
+/* .fa-shopping-cart{
+    position: relative;
+} */
+.fw-5 {
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.navbarbtns .add-to-cart-btn .btn-txt .cart-count-value {
+    position: absolute;
+    top: -10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E80071;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.8;
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.Sign{
+    background-color:  #E80071;
+    border-radius: 10px;
+    
+}
+/* .side{
+    background-image: "../image2.png";
+} */
+.container1 a{
+    text-decoration: none;
+
+}
+.container1 Button{
+    background-color: rgb(83, 161, 5);
+}

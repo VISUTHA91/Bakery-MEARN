@@ -1,0 +1,50 @@
+.trendingcontainer{
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(226, 223, 218);
+    /* margin-bottom: 20px; */
+    /* padding: 30px; */
+    /* position:absolute; */
+}
+.trendingcontent{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display:flex;
+    color: black;
+    margin-left: 30px;
+    padding: 10px;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.trendingprodocts{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom:30px;
+    /* background-color: aqua; */
+    /* height:00px; */
+    /* margin-top:10px; */
+    /* position:relative */
+    
+
+}
+.trendingimage:hover{
+    /* position: absolute; */
+    /* left: 50%; */
+    /* -webkit-transform: translateX(-50%); */
+    /* -ms-transform: translateX(-50%); */
+    /* -o-transform: translateX(-50%); */
+    /* transform: translateX(-50%); */
+    /* right: auto; */
+    /* top: 0; */
+    /* -webkit-transition: .5s; */
+    /* -o-transition: .5s; */
+    /* transition: .5s; */
+    /* opacity: 0 !important; */
+    /* filter: alpha(opacity = 0) !important; */
+    /* z-index: 9; */
+    transition: 0.3s ease-in-out;
+    /* transform: scale(1); */
+    transform: scale(1.1);
+}

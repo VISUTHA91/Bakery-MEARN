@@ -1,0 +1,29 @@
+.detailscontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    /* margin: 5px; */
+    justify-content:space-between;
+    gap:300px;
+    background-color: antiquewhite;
+    max-width:100%;
+    width: 100vw;
+    overflow-x: hidden;
+    /* margin-left: 10px; */
+    /* height: 50px; */
+}       
+.detailscontain{
+    overflow: hidden;
+}
+.detailstext p{
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+.detailstext{
+    /* background-color: aqua; */
+    width:160px;
+    justify-content: center;
+    padding: 15px;
+}
